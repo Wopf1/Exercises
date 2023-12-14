@@ -1,0 +1,64 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(115, 227, 235);
+}
+
+.photo {
+    width: 300px;
+    height: 200px;
+}
+
+.info {
+    border: 2px dotted green;
+    display: inline-block;
+    background-color: hsla(240, 100%, 50%, 0.2);
+}
+
+.hover:hover {
+    color: green;
+}
+.hover:active {
+    color: red;
+}
+
+.typing {
+    font-family: Rubik Bubbles;
+    display: block;
+}
+
+.border {
+    border-top: 2px dotted green;
+    border-bottom: 2px solid green;
+}
+th, td {
+    border: 1px solid green;
+    text-align: center;
+    min-width: 150px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ol {
+    background-color: hsla(240, 100%, 50%, 0.2);
+}
+
+li {
+    font-weight: bold;
+}
+
+.lorem {
+    width: 500px;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+}
